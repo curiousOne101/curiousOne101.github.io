@@ -15,11 +15,10 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>      
-          
-          <img src="{{"/assets/images/YC_Profile_Photo.jpg"}}" alt="ProfilePhoto" />
+        {% include navigation.html %}          
+        <img src="{{"/assets/images/YC_Profile_Photo.jpg"}}" class="profile" alt="ProfilePhoto" />
 
         <p>{{ site.description | default: "This is about to get lit" }}</p>
-        {% include navigation.html %}
       </header>
       <section>
 
