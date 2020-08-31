@@ -1,3 +1,6 @@
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+theme: jekyll-theme-minimal
+title: Young Consulting
